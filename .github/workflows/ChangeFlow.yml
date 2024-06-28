@@ -95,7 +95,8 @@ jobs:
                                                                                   # if both JUnit & TestNG tests, use target/surefire-reports/testng-junit-results/testng-results.xml
                   # GitHub Custom Action
                   # xml-report-filename: target/surefire-reports/
-                  xml-report-filename: target/surefire-reports/junitreports/
+                  # xml-report-filename: target/surefire-reports/junitreports/
+                  xml-report-filename: target/
                   test-type: # optional, default is JUnit  
     SonarTest:
          name: Sonar stage
